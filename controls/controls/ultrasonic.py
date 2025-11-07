@@ -48,7 +48,7 @@ class UltrasonicNode(Node):
 
 
 def main(args=None):
-    # Open GPIO chip (0 = default /dev/gpiochip0)
+    # Open GPIO chip (4 = default /dev/gpiochip4)
     chip = lgpio.gpiochip_open(4)
 
     # Set up pins
