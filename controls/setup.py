@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'ultrasonic_obstacle_detection = controls.ultrasonic:main',
+            'motor_controls = controls.l298n:main',
         ],
     },
 )

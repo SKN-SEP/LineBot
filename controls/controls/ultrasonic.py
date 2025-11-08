@@ -14,9 +14,10 @@ ECHO_PIN = 21       # BCM pin number
 STOP = 0
 
 class UltrasonicNode(Node):
+    
     def __init__(self, chip):
         super().__init__("ultrasonic_node")
-        self.publisher_ = self.create_publisher(Int16, "controls/l298n", 10)
+        self.publisher = self.create_publisher(Int16, "controls/l298n", 10)
         self.timer = self.create_timer(TIMER_PERIOD, self.detect_obstacle)
         self.get_logger().info("Ultrasonic sensor initialized")
         self.chip = chip
@@ -40,7 +41,7 @@ class UltrasonicNode(Node):
         if MIN_DISTANCE <= distance <= MAX_DISTANCE:
             msg = Int16()
             msg.data = STOP
-            self.publisher_.publish(msg)
+            self.publisher.publish(msg)
             self.get_logger().info(f"Obstacle detected at {distance:.1f} cm")
             
     def destroy_node(self):
