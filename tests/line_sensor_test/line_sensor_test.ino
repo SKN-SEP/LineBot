@@ -8,9 +8,9 @@
 #define IN5 5
 #define IN4 6
 #define IN3 7
-#define IN2 8
-#define IN1 9
-#define LEDON 10
+#define IN2 11
+#define IN1 12
+#define LEDON 13
 
 // Global variables
 QTRSensors qtr;

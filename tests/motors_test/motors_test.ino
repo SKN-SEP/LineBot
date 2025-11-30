@@ -1,10 +1,10 @@
 // Motor pin constants
-#define ENA 12 
-#define IN1 14 
-#define IN2 27 
-#define IN3 26
-#define IN4 25
-#define ENB 33
+#define ENA 10
+#define IN1 A0 
+#define IN2 A1 
+#define IN3 A2
+#define IN4 A3
+#define ENB 9
 
 // Functions
 void moveForward(uint8_t en, uint8_t in_1, uint8_t in_2, uint8_t duty_cycle);
@@ -41,7 +41,6 @@ void loop() {
   delay(2000);
 
 }
-
 
 void moveForward(uint8_t en, uint8_t in_1, uint8_t in_2, uint8_t duty_cycle) {
   analogWrite(en, duty_cycle);
