@@ -36,6 +36,7 @@ In order to build this robot, you need all the parts listed in the table below. 
 | Battery Slot (for 3) | Battery holder/slot for the 3 Li‑ion batteries                             | ![Battery Slot](./assets/battery-slot.jpg) |
 | DC Switch            | Power switch controlling overall power on/off for the robot                | ![DC Switch](./assets/dc-switch.jpg)     |
 | L298N Motor Driver   | Dual H‑bridge driver to control the two DC motors (direction & speed)       | ![L298N Driver](./assets/l298n.jpg)      |
+| Ultrasonic Sensor    | Detection sensor, used to check if there are obstacles on the way       | ![L298N Driver](./assets/ultrasonic.png)      |
 | Filament (for 3D printing) | Thermoplastic filament used if you 3D‑print custom parts (e.g. mounts, holders, covers) | ![3D Print Filament](./assets/filament.jpg) |
 
 
