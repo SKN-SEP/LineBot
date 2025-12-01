@@ -15,7 +15,17 @@ Line follower is an autonomous robot, that tracks the black line. Robot works th
 ...
 
 ## Installation 
-...
+<div style="display: flex; gap: 10px;">
+  <img src="./assets/arduino-ide.png" style="width: 33%;" />
+  <img src="./assets/git.png" style="width: 33%;" />
+</div>
+
+1. Download <a href="https://www.arduino.cc/en/software/">Arduino IDE</a> and install QTRSensors library.
+2. Clone github repository to your computer:
+  ```
+  https://github.com/SKN-SEP/LineBot.git
+  ```
+3. Connect your arduino to computer and upload the program.
 
 ## Assembly 
 ...
