@@ -1,5 +1,5 @@
 # LineBot
-Line follower is an autonomous robot, that tracks the black line. Robot works thanks to the line sensor (qtr8 from pololu). The sensors detects diffrence between colors. This projects combines automatics, micrcontroller programming and 3d printing.
+Line follower is an autonomous robot, that tracks the black line. Robot works thanks to the line sensor (qtr8 from pololu). The sensors detects difference between colors. This projects consists of automatics, micrcontroller programming and 3d printing.
 
 ### Table of contents 
 - [Introduction](#introduction)
@@ -9,7 +9,7 @@ Line follower is an autonomous robot, that tracks the black line. Robot works th
 - [License](#license)
 
 ## Introduction
-Stable and fast line follower is a great robot that helps us understand the role of the theory contorl in modern autonomous vehicles. The same algorithm can be implemented in camera based line follower or cars that drive between the lines. Knowledge gained by completing this project will help to create more advanced driving systems in the future.
+Stable and fast line follower is a great robot that helps us understand the role of the contorl theory in modern autonomous vehicles. The same algorithm can be implemented in camera based line follower or cars that drive between the lines. Knowledge gained by completing this project will help to create more advanced driving systems in the future.
 
 <img src="./assets/robot.gif"/>
 
