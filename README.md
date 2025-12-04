@@ -11,7 +11,9 @@ Line follower is an autonomous robot, that tracks the black line. Robot works th
 ## Introduction
 Stable and fast line follower is a great robot that helps us understand the role of the contorl theory in modern autonomous vehicles. The same algorithm can be implemented in camera based line follower or cars that drive between the lines. Knowledge gained by completing this project will help to create more advanced driving systems in the future.
 
-<img src="./assets/robot.gif"/>
+<p align="center">
+  <img src="./assets/car.jpg"/>
+</p>
 
 ## PD Algorithm 
 This project implements PD regulator in velocity form, it is widely used in mobile robots. We have implemented the discrete form of the PD reulator's equation. 
@@ -36,6 +38,12 @@ u(t) = K_P e(t) + K_D(e(t) - e(t-1))
 - $K_D$ - derivative term, reduces overshooting.
 - $e(t)$ - error at the time t, the difference between robot and line positions.
 
+<p align="center">
+  <video width="320" height="240" controls>
+    <source src="./assets/video.mp4" type="video/mp4">
+  </video>
+</p>
+
 ## Installation 
 1. Download <a href="https://www.arduino.cc/en/software/">Arduino IDE</a> and install QTRSensors library.
 2. Clone github repository to your computer:
@@ -58,7 +66,6 @@ In order to build this robot, you need all the parts listed in the table below. 
 | Battery Slot (for 3) | Battery holder/slot for the 3 Li‑ion batteries                             | ![Battery Slot](./assets/battery-slot.jpg) |
 | DC Switch            | Power switch controlling overall power on/off for the robot                | ![DC Switch](./assets/dc-switch.jpg)     |
 | L298N Motor Driver   | Dual H‑bridge driver to control the two DC motors (direction & speed)       | ![L298N Driver](./assets/l298n.jpg)      |
-| Ultrasonic Sensor    | Detection sensor, used to check if there are obstacles on the way       | ![L298N Driver](./assets/ultrasonic.png)      |
 | Filament (for 3D printing) | Thermoplastic filament used if you 3D‑print custom parts (e.g. mounts, holders, covers) | ![3D Print Filament](./assets/filament.jpg) |
 
 ## License
