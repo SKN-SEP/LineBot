@@ -15,6 +15,11 @@ Stable and fast line follower is a great robot that helps us understand the role
   <img src="./assets/car.jpg"/>
 </p>
 
+> **Note:**  
+> An example of this robot in use can be found in the `assets` folder as `video.mp4` (`/assets/video.mp4`).  
+> The calibration process should take **about two seconds** — follow the same procedure as shown in the video.
+
+
 ## PD Algorithm 
 This project implements PD regulator in velocity form, it is widely used in mobile robots. We have implemented the discrete form of the PD reulator's equation. 
 
