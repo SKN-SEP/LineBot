@@ -6,6 +6,7 @@ Line follower is an autonomous robot, that tracks the black line. Robot works th
 - [PD Algorithm](#pd-algorithm)
 - [Installation](#installation)
 - [Assembly](#assembly)
+- [Contribution](#contribution)
 - [License](#license)
 
 ## Introduction
@@ -72,6 +73,12 @@ In order to build this robot, you need all the parts listed in the table below. 
 | DC Switch            | Power switch controlling overall power on/off for the robot                | ![DC Switch](./assets/dc-switch.jpg)     |
 | L298N Motor Driver   | Dual H‑bridge driver to control the two DC motors (direction & speed)       | ![L298N Driver](./assets/l298n.jpg)      |
 | Filament (for 3D printing) | Thermoplastic filament used if you 3D‑print custom parts (e.g. mounts, holders, covers) | ![3D Print Filament](./assets/filament.jpg) |
+
+## Contribution
+| **Student Information** | **Image** |
+|-------------------------|-----------|
+| **Michał Zientek** is the primary author and creator of the **LineBot** project. He was responsible for **all stages** of development, including:<br><br>- Designing the robot architecture and system concept<br>- Implementing the full control logic and line-following algorithm<br>- Creating the calibration procedure (approx. 2 seconds)<br>- Building and testing the hardware<br>- Writing all software components<br>- Producing documentation and demonstration materials (including the example video)<br>| <img src="assets/student.jpg" width="250"/> |
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
